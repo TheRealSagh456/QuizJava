@@ -26,6 +26,14 @@ void main() {
            "d", "a", "a", "c", "c"
    };
 
+   Cabeçalho cabecalho = new Cabeçalho();
+
+   cabecalho.Criar("UNIFAN - Centro Universitário Alfredo Nasser", "Samuel Gonçalves Campos", "Brenno Pimenta da Costa", "Quiz sobre Java e desenvolvimento no Geral");
+
+   cabecalho.Infos();
+
+   System.out.println();
+
    ArrayList<Boolean> corretas = new ArrayList<>();
 
    for(int i = 0; i<Perguntas.length; i++) {
@@ -33,7 +41,8 @@ void main() {
        perguntaFormatada.regPergunta(Perguntas[i], Respostas[i].charAt(0));
        ClassPerguntas.add(perguntaFormatada);
    }
-    System.out.println("Hora do quiz de Java!");
+   System.out.println("Hora do quiz!");
+   System.out.println();
    for(int j = 0; j<ClassPerguntas.size();j++) {
        System.out.println(ClassPerguntas.get(j).texto);
        if(leitor.hasNext()) {
