@@ -18,7 +18,7 @@ void main() {
            "12. Qual o paradigma predominante no Java? \na) Orientação a objetos\nb) Programação lógica\nc) Programação funcional\nd) Programação procedural\ne) Programação orientada a protótipos",
            "13. Qual conceito permite uma classe filha instancear atributos e métodos de uma classe Pai? \na) Herança\nb) Polimorfismo\nc) Encapsulamento\nd) Recursão\ne) Composição",
            "14. Qual conceito permite agrupar atributos e métodos em uma Classe e controlar o acesso aos seus dados?\na) Herança\nb) Polimorfismo\nc) Encapsulamento\nd) Recursão\ne) Sobrecarga",
-           "15. Qual a função de um vetor? \na) Guardar um número na memória\nb) Relacionar chave-valor\nc) Agrupar e localizar dados por índices\nd)Transmitir doenças\ne) Ordenar automaticamente todos os dados armazenados"
+           "15. Qual a função de um vetor? \na) Guardar um número na memória\nb) Relacionar chave-valor\nc) Agrupar e localizar dados por índices\nd) Transmitir doenças\ne) Ordenar automaticamente todos os dados armazenados"
    };
 
    String[] Respostas = {
